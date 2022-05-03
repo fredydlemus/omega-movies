@@ -1,0 +1,19 @@
+{
+  "name": "omega-movies",
+  "version": "1.0.0",
+  "description": "This is a project for a API consume practice.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredydlemus/omega-movies.git"
+  },
+  "author": "fredydlemus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fredydlemus/omega-movies/issues"
+  },
+  "homepage": "https://github.com/fredydlemus/omega-movies#readme"
+}
