@@ -8,7 +8,65 @@
     <link rel="stylesheet" href="./styles/app.css" />
 </head>
 <body>
-    <h1>OmegaMovies</h1>
+    <header id="header" class="header-container">
+        <span class="header-arrow inactive">&lt;</span>
+        <h1 class="header-title">OmegaMovies</h1>
+        <h1 class="header-title header-title--categoryView inactive">Action</h1>
+
+        <form id="searchForm" class="header-searchForm">
+            <input type="text" placeholder="Avengers" />
+            <button>🔍</button>
+        </form>
+    </header>
+
+    <section id="trendingPreview" class="trendingPreview-container">
+        <div class="trendingPreview-header">
+            <h2 class="trendingPreview-title">Trends</h2>
+            <button class="trendingPreview-btn">See more</button>
+        </div>
+
+        <article class="trendingPreview-movieList">
+            <div class="movie-container">
+                <img class="movie-img" alt="Movie's name" src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" />
+            </div>
+            <div class="movie-container">
+                <img class="movie-img" alt="Movie's name" src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" />
+            </div>
+            <div class="movie-container">
+                <img class="movie-img" alt="Movie's name" src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" />
+            </div>
+        </article>
+    </section>
+
+    <section id="categoriesPreview" class="categoriesPreview-container">
+        <h2 class="categoriesPreview-title">Categories</h2>
+
+        <article class="categoriesPreview-list">
+            <div class="category-container">
+                <h3 id="id28" class="category-title">Romance</h3>
+            </div>
+            <div class="category-container">
+                <h3 id="id28" class="category-title">Romance</h3>
+            </div>
+            <div class="category-container">
+                <h3 id="id28" class="category-title">Romance</h3>
+            </div>
+        </article>
+    </section>
+
+    <section id="genericList" class="genericList-container">
+        <div class="movie-container">
+            <img class="movie-img" alt="Movie's name" src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" />
+        </div>
+        <div class="movie-container">
+            <img class="movie-img" alt="Movie's name" src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" />
+        </div>
+        <div class="movie-container">
+            <img class="movie-img" alt="Movie's name" src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" />
+        </div>
+    </section>
+
+    <section></section>
     
     <script src="./src/secrets.js"></script>
     <script src="./src/main.mjs" type="module"></script>
